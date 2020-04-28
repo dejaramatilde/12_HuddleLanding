@@ -1,0 +1,32 @@
+.hero {
+  text-align: center;
+  color: $very-dark-cyan;
+
+  .hero__title {
+    font-family: $font-header;
+  }
+  .hero__text {
+    margin: $sp3 $sp1;
+  }
+
+  .hero__illustration {
+    width: 70%;
+    margin-top: $sp1;
+  }
+
+  @media screen and (min-width: $xl) {
+    display: flex;
+    align-items: center;
+
+    .hero__info {
+      width: 60%;
+      text-align: left;
+      margin-right: $sp2;
+    }
+
+    .hero__illustration {
+      width: 100%;
+      margin-top: $sp1;
+    }
+  }
+}

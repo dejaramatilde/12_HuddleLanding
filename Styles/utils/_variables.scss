@@ -1,0 +1,55 @@
+//Layout
+//- Mobile: 375px
+//- Desktop: 1440px
+
+//Colors
+
+//Primary
+
+$pink: hsl(322, 100%, 66%);
+
+//Neutral
+
+$very-pale-cyan: hsl(193, 100%, 96%);
+$very-dark-cyan: hsl(192, 100%, 9%);
+$vrayish-blue: hsl(208, 11%, 55%);
+
+// Typography
+
+// Body Copy
+
+$font-size: 18px;
+
+// Headings
+
+$font-header: "Poppins", sans-serif;
+$font-weight-header: 600;
+
+// Body, Call-to-actions
+
+$font-body: "Open Sans", sans-serif;
+$font-weight-light: 400;
+$font-weight-light: 700;
+
+//Espaciados
+
+$sp0: 0.5rem; //8px
+$sp1: 1rem; //16px
+$sp2: 2rem; //32px
+$sp3: 2.5rem; //40px
+$sp4: 3rem; //48px
+$sp5: 4rem; //64px
+$sp6: 6rem; //96px
+
+//pantallas
+
+$sm: 680px;
+$xl: 1280px;
+
+// Icons
+
+//For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+//- [Font Awesome](https://fontawesome.com/)
+//- [IcoMoon](https://icomoon.io/)
+//- [Ionicons](https://ionicons.com/)
