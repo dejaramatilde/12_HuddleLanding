@@ -2,6 +2,19 @@
   text-align: center;
   color: $very-dark-cyan;
 
+  @media screen and (min-width: $xl) {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero__info {
+    @media screen and (min-width: $xl) {
+      width: 60%;
+      text-align: left;
+      margin-right: $sp6;
+    }
+  }
+
   .hero__title {
     font-family: $font-header;
   }
@@ -10,22 +23,10 @@
   }
 
   .hero__illustration {
-    width: 70%;
-    margin-top: $sp1;
-  }
-
-  @media screen and (min-width: $xl) {
-    display: flex;
-    align-items: center;
-
-    .hero__info {
-      width: 60%;
-      text-align: left;
-      margin-right: $sp2;
-    }
-
-    .hero__illustration {
-      width: 100%;
+    width: 80%;
+    margin: $sp2 0;
+    @media screen and (min-width: $xl) {
+      width: 90%;
       margin-top: $sp1;
     }
   }
