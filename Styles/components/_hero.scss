@@ -2,13 +2,13 @@
   text-align: center;
   color: $very-dark-cyan;
 
-  @media screen and (min-width: $xl) {
+  @media screen and (min-width: $sm) {
     display: flex;
     align-items: center;
   }
 
   .hero__info {
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       width: 60%;
       text-align: left;
       margin-right: $sp6;
@@ -25,7 +25,7 @@
   .hero__illustration {
     width: 80%;
     margin: $sp2 0;
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       width: 90%;
       margin-top: $sp1;
     }

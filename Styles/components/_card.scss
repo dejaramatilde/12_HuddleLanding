@@ -1,6 +1,6 @@
 .container {
   margin: 4rem 0 10rem 0;
-  @media screen and (min-width: $xl) {
+  @media screen and (min-width: $sm) {
     margin: 6rem 6rem 12rem 6rem;
   }
 }
@@ -17,7 +17,7 @@
   text-align: center;
   overflow: hidden;
 
-  @media screen and (min-width: $xl) {
+  @media screen and (min-width: $sm) {
     display: flex;
     flex-direction: row-reverse;
     padding: $sp0;
@@ -25,7 +25,7 @@
   }
 
   .card__info {
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       padding: $sp6;
     }
   }
@@ -46,14 +46,14 @@
     width: 70%;
     padding: $sp2 0;
 
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       width: 40%;
       padding: $sp2;
     }
   }
 
   &--inverted {
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       flex-direction: row;
     }
   }
@@ -67,12 +67,12 @@
       margin-bottom: $sp2;
       font-size: 1rem;
       color: $very-dark-cyan;
-      @media screen and (min-width: $xl) {
+      @media screen and (min-width: $sm) {
         font-size: 1.5rem;
       }
     }
 
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $sm) {
       display: flex;
       flex-direction: column;
       align-self: center;

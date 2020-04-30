@@ -9,6 +9,18 @@
   .logo--blanco {
     width: 50%;
     margin: $sp2 0;
+    @media screen and (min-width: $sm) {
+      width: 60%;
+    }
+  }
+
+  .footer--direction {
+    @media screen and (min-width: $sm) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: $sp1 $sp4;
+    }
   }
 
   .footer__list {
@@ -30,6 +42,9 @@
       text-decoration: none;
       color: #fff;
     }
+    @media screen and (min-width: $sm) {
+      width: 30%;
+    }
   }
   .footer__info {
     list-style: none;
@@ -37,6 +52,10 @@
       text-decoration: none;
       color: #fff;
       line-height: $sp4;
+    }
+    @media screen and (min-width: $sm) {
+      width: 25%;
+      text-align: center;
     }
   }
 
@@ -53,8 +72,14 @@
       align-items: center;
       justify-content: center;
     }
+    @media screen and (min-width: $sm) {
+      width: 20%;
+    }
   }
   .small {
-    margin: $sp4;
+    text-align: center;
+    @media screen and (min-width: $sm) {
+      text-align: end;
+    }
   }
 }
